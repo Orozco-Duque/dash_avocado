@@ -22,6 +22,7 @@ external_stylesheets = [dbc.themes.CYBORG]
 #app = Dash(__name__, external_stylesheets=external_stylesheets)
 
 app = Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 app.title = "Avocado Analytics: Understand Your Avocados!"
 
 app.layout = dbc.Container([
