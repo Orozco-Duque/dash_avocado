@@ -171,4 +171,4 @@ def update_charts(region, avocado_type, start_date, end_date):
     return price_chart_figure, volume_chart_figure
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
